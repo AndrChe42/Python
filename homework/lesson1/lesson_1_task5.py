@@ -1,6 +1,6 @@
 def num_Print(number):
     for i in range(0, 11):
-        print(number, i + 1)
+        print(number)
     return number
 
 
