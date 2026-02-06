@@ -23,7 +23,7 @@ def add_elem(count=5):
 def show_list():
     print("\nКаталог:")
     for phone in catalog:
-        print(f"{phone.ph_brand:<10} {phone.ph_model:<25} {phone.ph_number}")
+        print(f"{phone.ph_brand:<{len(phone.ph_brand)}} - {phone.ph_model:<5}. {phone.ph_number}")
 
 
 print("Хотите добавить еще телефонов вручную?(уes/no)")
