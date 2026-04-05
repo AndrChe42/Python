@@ -38,7 +38,7 @@ def test_div_positive_nums():
 def test_div_by_zero():
     calculator = Calculator()
     with pytest.raises(ArithmeticError):
-        calculator.sum(10,0)
+        calculator.div(10,0)
     
 def test_avg_empty_list():
     calculator = Calculator()
